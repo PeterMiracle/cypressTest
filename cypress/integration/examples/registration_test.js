@@ -4,7 +4,7 @@ const rp =new RegistrationPage()
 describe('Registration tests', function() {
 
     beforeEach(() => {
-        rp.visit('https://ecommerce-playground.lambdatest.io/index.php?route=account/register')
+        rp.visit()
     
         
         //to go to fixture file to get data parameter

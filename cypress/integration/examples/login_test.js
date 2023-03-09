@@ -5,7 +5,7 @@ const lp =new LoginPage()
 describe('Log in tests', function() {
           
     beforeEach(() => {
-        lp.visit('https://ecommerce-playground.lambdatest.io/index.php?route=account/login')
+        lp.visit()
 
       cy.fixture('example').then((data) =>{
         userDetails =data
