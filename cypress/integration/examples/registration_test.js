@@ -1,3 +1,4 @@
+/// <reference types ="cypress"/>
 import RegistrationPage from '../pageObject/RegistrationPage'
 let userDetails
 const rp =new RegistrationPage()

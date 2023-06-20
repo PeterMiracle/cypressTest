@@ -1,11 +1,11 @@
-
+/// <reference types ="cypress"/>
 import LoginPage from '../pageObject/LoginPage'
 let userDetails
 const lp =new LoginPage()
 describe('Log in tests', function() {
           
     beforeEach(() => {
-        lp.visit()
+        lp.visit('')
 
       cy.fixture('example').then((data) =>{
         userDetails =data
@@ -53,6 +53,6 @@ describe('Log in tests', function() {
         lp.enterPassword(userDetails.correctPassword)
         lp.login()
     
-        cy.get(':nth-child(1) > .card-header').should('contain','My Account')
+        cy.get(':nth-child(1) > .card-header').should('contain','My Account').and('contain.text,')
     })
   })

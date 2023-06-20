@@ -9,7 +9,7 @@ class LoginPage {
 
     enterEmail(value)
     {
-        const field = cy.get('#input-email')
+        const field = cy.get('@input-email')
         field.clear()
         field.type(value)
         return this

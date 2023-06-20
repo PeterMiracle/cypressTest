@@ -8,7 +8,7 @@
   "password": "12112122121221",
   "email": "jagadajegede@gmail.com",
   "usedEmail": "petmania41@gmail.com",
-  "freshEmail": "petmania44@gmail.com",
+  "freshEmail": "{{$randomWord}}@gmail.com",
   "incorrectPassword": "11223445566778899"
   
 }
